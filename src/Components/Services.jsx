@@ -16,8 +16,8 @@ export default function Services(){
 
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6">
           {services.map((s,i) => (
-            <div key={i} className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
-              <div className="w-12 h-12 rounded-md bg-orange-50 flex items-center justify-center mb-4"><img src="/public/intersection.png"/></div>
+            <div key={i} className="bg-slate-300 p-6 rounded-xl shadow-md hover:shadow-xl transition">
+              <div className="w-12 h-12 rounded-md bg-orange-100 flex items-center justify-center mb-4"><img src="/public/intersection.png"/></div>
               <h4 className="font-semibold mb-2">{s.title}</h4>
               <p className="text-gray-500 text-sm">{s.desc}</p>
             </div>
